@@ -9,6 +9,9 @@ namespace app
             Console.WriteLine("Enter first integer:");
             int a = int.Parse(Console.ReadLine());
 
+            Console.WriteLine("Enter second integer:");
+            int b = int.Parse(Console.ReadLine());
+
         }
 
         static int Sum(int x, int y)
